@@ -1,0 +1,77 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<title>
+    Daniel Saldanha
+</title>
+<head>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+  
+  <!--src="/static/pic.jpg"-->
+  <p>
+  <img  src="{% static 'pic.jpg'%}" align="left" class="pp"><center class="intro"><h2>Daniel Lester Saldanha</h2></center>
+        <center class="intro">
+
+        <!--B Tech in Computer Science Engineering , 2023<br>-->
+        B Tech in Computer Science Engineering<br>
+        Currently looking for internships in summer 2020<br>
+        Intermediate experience in Web development and knowledge of majour pragramming languages such as C,C++,Python etc.<br><br>
+        <a href="https://www.linkedin.com/in/daniel-saldanha-31660a19a/" style="color:orangered">linkdin</a>&nbsp&nbsp
+        <a href="https://github.com/DAN-329" style="color:orangered">Github</a>&nbsp&nbsp
+        Phone :9513377329 &nbsp&nbsp
+        Email :saldanha.dan@gmail.com<br><br>   
+         
+        </center>
+  </p>
+  <hr WIDTH="100%"color=#FF4500 >
+  <hr WIDTH="100%"color=#FF4500 >
+
+  <!--
+  <center>
+  <br>
+  <button class="topic">Education</button><br><br><br>
+  <button class="topic">Certification</button><br><br><br>
+  <button class="topic">Experience</button><br><br><br>
+  <button class="topic">Skills</button><br><br><br>
+  <button class="topic">Projects</button><br><br><br>
+  <button class="topic">References</button><br><br><br>
+  </center>
+  -->
+<header>
+<nav>          
+    <ul class="nav_links">
+        <li><a href="http://localhost:8000/daniel/education/">Education</a></li>
+        <li><a href="http://localhost:8000/daniel/certification/">Certification</a></li>
+        <li><a href="http://localhost:8000/daniel/experience/">Experience</a></li>
+        <li><a href="http://localhost:8000/daniel/skills/">Skills</a></li>
+        <li><a href="http://localhost:8000/daniel/projects/">Projects</a></li>
+        <li><a href="http://localhost:8000/daniel/recommendations/">Recommendations</a></li>
+
+    </ul>        
+</nav>
+</header>
+{% block body_block %}
+
+
+{% endblock %}
+
+  <footer>
+    <hr WIDTH="100%"color=#FF4500 >
+    <hr color=#FF4500>
+    <center>
+    <h3>
+    This webpage was created by Daniel Lester Saldanha using Django.<br>
+    Phone:9513377329 &nbsp;&nbsp; Email:saldanha.dan@gmail.com <br>
+    PES University<br>
+    
+    </h3>
+    </center>
+  </footer>
+
+    
+</body>
+
+</html>

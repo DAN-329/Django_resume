@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block body_block %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static '/education/education.css' %}">
+
+
+
+<center class="edu">
+    <br>
+    <b><u>Sharjah Indian School</u></b><br>
+    CBSE Class 10th and Class 12th<br>
+    2017-2019<br><br>
+    <!--<img src="/static/education/sis.png">-->
+    <img  src="{% static 'education/sis.png'%}">
+    <!--<img scr="{% static '/education/sis.jpg' %}">  -->
+    <br>
+    <br>
+    <b><u>PES University</u></b><br>
+    B Tech in Computer Science Engineering<br>
+    2019-2023<br><br>
+    <!--<img src='/static/education/pes.png'><br>-->
+    <img  src="{% static 'education/pes.png'%}">
+    
+    
+    
+</center> 
+
+{% endblock %}
+
+    

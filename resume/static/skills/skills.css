@@ -1,0 +1,13 @@
+.skills{
+    font-family:"Courgette",sans-serif;
+    font-weight:400;
+    font-size:20px;
+    color:black;
+    text-decoration:none;
+}
+.please{
+    widows:150px;
+    height:150px;
+    justify-content:center;
+    align-self:middle;  
+}

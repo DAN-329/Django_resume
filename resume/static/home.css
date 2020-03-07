@@ -1,0 +1,67 @@
+.pp{
+    widows:160px;
+    height:160px;
+    border:2px solid orangered;
+    cursor: pointer;
+    justify-content:left;
+    border-radius: 50%;
+    border-color: orangered;
+}
+body{
+    
+    background-image: linear-gradient(to bottom,#24252A,#24252A 25%, white 50%);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+.intro{
+    color:white;
+}
+footer{
+    background-color: #24252A;
+    color:blanchedalmond;
+    height:120px;
+    width:100%;
+    position: bottom;
+    bottom:0%;
+    left:0%;
+    padding-top:20px ;
+}
+.topic{
+    padding: 9px;
+    background-color:lightblue;
+    color:black;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+
+    font-family:"Courgette",sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:white;
+    text-decoration:none;
+}
+li, a, button{
+    font-family:"Courgette",sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:white;
+    text-decoration:none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: orangered;
+}
+header{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0%;
+
+}
